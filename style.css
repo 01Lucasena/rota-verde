@@ -50,3 +50,76 @@ section {
   max-width: 1100px;
   margin: 0 auto;
 }
+
+/* ===== Header / Nav ===== */
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--verde-escuro);
+  border-bottom: 1px solid var(--verde-medio);
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: var(--fonte-titulo);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--creme);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: var(--creme);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--mostarda);
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--creme);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* ===== Responsivo: mobile ===== */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: var(--verde-medio);
+    padding: 1.5rem;
+    gap: 1rem;
+    display: none; /* JS vai controlar isso */
+  }
+
+  .nav-links.aberto {
+    display: flex;
+  }
+}
