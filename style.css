@@ -116,7 +116,7 @@ nav {
     background-color: var(--verde-medio);
     padding: 1.5rem;
     gap: 1rem;
-    display: none; /* JS vai controlar isso */
+    display: none; 
   }
 
   .nav-links.aberto {
