@@ -123,3 +123,48 @@ nav {
     display: flex;
   }
 }
+
+/* ===== Hero ===== */
+#hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  color: var(--creme);
+  opacity: 0.85;
+  max-width: 500px;
+  margin: 1.5rem 0 2rem;
+}
+
+.cta {
+  display: inline-block;
+  background-color: var(--verde-claro);
+  color: var(--verde-escuro);
+  font-weight: 600;
+  padding: 0.9rem 2rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta:hover {
+  background-color: var(--mostarda);
+  transform: translateY(-2px);
+}
+
+/* Responsivo: centraliza no mobile */
+@media (max-width: 600px) {
+  #hero {
+    text-align: center;
+    align-items: center;
+  }
+
+  #hero p {
+    max-width: 100%;
+  }
+}
