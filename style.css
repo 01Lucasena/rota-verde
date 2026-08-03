@@ -229,6 +229,7 @@ nav {
 
 .passo:hover {
   transform: translateY(-2px);
+  transition: all 0.2s ease;
 }
 
 
@@ -294,6 +295,7 @@ nav {
 
 .card:hover {
   transform: translateY(-2px);
+  transition: all 0.2s ease;
 }
 
 /* Responsivo: centraliza no mobile */
@@ -307,4 +309,88 @@ nav {
     flex-direction: column;
     gap: 1rem;
   }
+}
+
+/* ===== Contato ===== */
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 480px;
+  margin-top: 1.5rem;
+}
+
+label {
+  text-align: left;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+input,
+textarea {
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid var(--verde-medio);
+  background-color: var(--verde-medio);
+  color: var(--creme);
+  font-family: var(--fonte-corpo);
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--verde-claro);
+  outline-offset: 2px;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: var(--verde-claro);
+  color: var(--verde-escuro);
+  font-weight: 600;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--mostarda);
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background-color: var(--mostarda);
+  color: var(--verde-escuro);
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
+
+/* ===== Feedback do formulário ===== */
+.erro-campo {
+  color: #E85A4A;
+  font-size: 0.85rem;
+  text-align: left;
+  margin-top: -0.5rem;
+}
+
+.sucesso-envio {
+  color: var(--verde-claro);
+  font-weight: 500;
+  margin-top: 1rem;
 }
