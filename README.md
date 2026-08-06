@@ -46,4 +46,4 @@ rota-verde/
 
 ## Autor
 
-Feito por [Seu Nome](https://github.com/SEU-USUARIO) — projeto de portfólio.
+Feito por Lucas Sena(https://github.com/01Lucasena) — projeto de portfólio.
