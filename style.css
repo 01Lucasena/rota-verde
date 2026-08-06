@@ -22,7 +22,7 @@ body {
   font-family: var(--fonte-corpo);
   background-color: var(--verde-escuro);
   color: var(--creme);
-  line-height: 1.6;
+  line-height: 1.6; 
 }
 
 h1, h2, h3 {
