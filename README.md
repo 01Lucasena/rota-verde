@@ -6,7 +6,8 @@ Landing page para um serviço fictício de entregas sustentáveis por bicicleta,
 
 ## Screenshot
 
-_Adicione aqui um print da tela inicial (desktop e mobile), ex: `![preview](./img/preview.png)`_
+<img src="img/preview-1.png" width="400">
+<img src="img/preview-2.png" width="400">
 
 ## Funcionalidades
 
