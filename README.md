@@ -29,7 +29,7 @@ Landing page para um serviço fictício de entregas sustentáveis por bicicleta,
 ## Como rodar localmente
 
 ```bash
-git clone https://github.com/SEU-USUARIO/rota-verde.git
+git clone https://github.com/01Lucasena/rota-verde.git
 cd rota-verde
 ```
 
